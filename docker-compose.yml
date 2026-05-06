@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  invoice-masker:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - INVOICE_MASKER_CONFIG=/app/invoice_masker/config.yaml

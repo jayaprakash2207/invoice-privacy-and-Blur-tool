@@ -1,0 +1,17 @@
+**/__pycache__
+**/*.py[cod]
+**/*.pyo
+**/*.pyd
+.venv/
+venv/
+logs/
+outputs/
+outputs_ocr/
+outputs_redacted/
+outputs_restored/
+outputs_steps/
+outputs_tokenized/
+.git/
+.github/
+.vscode/
+.env

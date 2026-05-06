@@ -73,3 +73,15 @@ These are ignored by git via the root `.gitignore`.
 ```bash
 uvicorn api:app --host 0.0.0.0 --port 8000 --workers 2
 ```
+
+## Docker
+Build and run with Docker:
+```bash
+docker build -t invoice-masker .
+docker run --rm -p 8000:8000 invoice-masker
+```
+
+Or with docker-compose:
+```bash
+docker-compose up --build
+```
