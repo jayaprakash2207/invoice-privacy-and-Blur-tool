@@ -1,5 +1,15 @@
 # Invoice Privacy Masker
 
+<p align="center">
+	<img src="docs/preview.gif" width="780" alt="Masked to tokenized animation" />
+</p>
+
+<p align="center">
+	<img src="invoice_masker/outputs/preview-page0_13e64b68_masked.png" width="240" alt="Masked output" />
+	<img src="invoice_masker/outputs_ocr/Sample-Modern-Sales-Invoice-Template-edit-online_ocr_boxes.png" width="240" alt="OCR boxes" />
+	<img src="invoice_masker/outputs_redacted/Simple-Proforma-Invoice-Template-edit-online_redacted.png" width="240" alt="Redacted output" />
+</p>
+
 Invoice Privacy Masker detects sensitive fields in invoices using OCR + NER and produces masked (blurred) images. It also supports optional redaction with dummy text, step-by-step outputs, and tokenized restoration workflows.
 
 ## Features
@@ -65,7 +75,7 @@ Generated files are written under:
 - `outputs_tokenized/`
 - `outputs_restored/`
 
-These are ignored by git via the root `.gitignore`.
+These outputs are tracked in this repo for demo purposes.
 
 ## Deployment notes
 - Set `INVOICE_MASKER_CONFIG` to point at your production config if needed.
