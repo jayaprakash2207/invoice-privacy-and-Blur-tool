@@ -1,0 +1,102 @@
+[
+  {
+    "token": "INV_992450",
+    "original": "Invoice Number: 17-18/JH/97",
+    "bbox": [
+      864,
+      367,
+      1328,
+      406
+    ]
+  },
+  {
+    "token": "DATE_BE1392",
+    "original": "Invoice Date: July 26, 2017",
+    "bbox": [
+      864,
+      401,
+      1293,
+      441
+    ]
+  },
+  {
+    "token": "INV_DA57BA",
+    "original": "Invoice Amount: INR 47,925.00",
+    "bbox": [
+      864,
+      436,
+      1364,
+      477
+    ]
+  },
+  {
+    "token": "ORG_CA1A4E",
+    "original": "GSTIN: 20QxOCC9424D1Z5",
+    "bbox": [
+      124,
+      472,
+      579,
+      508
+    ]
+  },
+  {
+    "token": "USER_B3581B",
+    "original": "Details of Buyer (Bill To):",
+    "bbox": [
+      122,
+      517,
+      509,
+      565
+    ]
+  },
+  {
+    "token": "ORG_24B877",
+    "original": "Cipla Ltd",
+    "bbox": [
+      124,
+      555,
+      282,
+      595
+    ]
+  },
+  {
+    "token": "ORG_24B877",
+    "original": "Cipla Ltd",
+    "bbox": [
+      864,
+      555,
+      1025,
+      591
+    ]
+  },
+  {
+    "token": "ORG_ADC03A",
+    "original": "3.00 MLT",
+    "bbox": [
+      491,
+      1233,
+      611,
+      1268
+    ]
+  },
+  {
+    "token": "INV_EC5D82",
+    "original": "Invoice Total (in figures): INR 47,925.00",
+    "bbox": [
+      1116,
+      1361,
+      1603,
+      1398
+    ]
+  },
+  {
+    "token": "INV_3F820A",
+    "original": "Invoice Total amount in words: Forty seven thousand, nine hundred and twenty five",
+    "bbox": [
+      638,
+      1411,
+      1602,
+      1435
+    ]
+  }
+]

@@ -1,0 +1,79 @@
+outputs_dir: outputs
+outputs_ocr_dir: outputs_ocr
+outputs_steps_dir: outputs_steps
+outputs_redacted_dir: outputs_redacted
+
+ocr:
+  languages: ["en"]
+  gpu: false
+  text_threshold: 0.7
+  low_text: 0.4
+  link_threshold: 0.4
+  canvas_size: 2560
+  mag_ratio: 1.5
+  contrast_ths: 0.1
+  adjust_contrast: 0.5
+  preprocess:
+    enabled: true
+    upscale_max_width: 1800
+    downscale_max_width: 2000
+    clahe_clip: 2.0
+    denoise: true
+    sharpen: false
+
+ner:
+  backend: spacy
+  spacy_model: en_core_web_sm
+  hf_model: dslim/bert-base-NER
+
+masking:
+  padding: 2
+  blur_divisor: 7
+  min_kernel: 3
+
+pdf:
+  dpi: 250
+  thread_count: 2
+
+redaction:
+  smart_faker: false
+  charset: "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+  min_len: 4
+
+tokenization:
+  output_dir: outputs_tokenized
+  db_path: outputs_tokenized/token_map.json
+  restore_output_dir: outputs_restored
+  prefix_map:
+    PERSON: "USER_"
+    ORG: "ORG_"
+    GPE: "LOC_"
+    EMAIL: "EMAIL_"
+    PHONE: "PHONE_"
+    ADDRESS: "ADDR_"
+    ZIP: "ZIP_"
+    DATE: "DATE_"
+    INVOICE: "INV_"
+    GEN: "GEN_"
+
+classification:
+  enabled: true
+  model_name: "valhalla/distilbart-mnli-12-1"
+  candidate_labels:
+    - "personal data"
+    - "financial data"
+    - "address or contact"
+    - "non-sensitive"
+  threshold: 0.6
+  mode: "and"
+
+watermark:
+  enabled: true
+  text: "CONFIDENTIAL - DEMO COPY"
+  opacity: 0.25
+  font_scale: 1.2
+
+logging:
+  level: INFO
+  file: logs/invoice_masker.log
+  console: true

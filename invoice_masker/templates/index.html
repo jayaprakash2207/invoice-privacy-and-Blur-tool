@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Privacy Masker</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 24px;
+        background: #f7f7f7;
+        color: #222;
+      }
+      .card {
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+        max-width: 720px;
+      }
+      .row {
+        margin-bottom: 12px;
+      }
+      label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+      input[type="file"] {
+        display: block;
+      }
+      .options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px 16px;
+      }
+      .actions {
+        margin-top: 16px;
+      }
+      button {
+        padding: 10px 16px;
+        border: none;
+        border-radius: 6px;
+        background: #1f6feb;
+        color: white;
+        cursor: pointer;
+      }
+      .note {
+        font-size: 12px;
+        color: #666;
+        margin-top: 8px;
+      }
+      .results {
+        margin-top: 24px;
+      }
+      .results a {
+        display: block;
+        margin: 6px 0;
+      }
+      .error {
+        color: #c00;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h2>Invoice Privacy Masker</h2>
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <div class="row">
+          <label for="file">Upload Invoice (PDF or Image)</label>
+          <input type="file" name="file" id="file" required />
+        </div>
+        <div class="row">
+          <label>Options</label>
+          <div class="options">
+            <label><input type="checkbox" name="save_ocr_boxes" checked /> Save OCR Boxes</label>
+            <label><input type="checkbox" name="save_steps" /> Save Step Outputs</label>
+            <label><input type="checkbox" name="save_dummy" /> Dummy Redaction</label>
+            <label><input type="checkbox" name="smart_faker" /> Smart Faker</label>
+            <label><input type="checkbox" name="save_tokenized" /> Tokenized Output</label>
+            <label><input type="checkbox" name="apply_watermark" checked /> Add Watermark</label>
+          </div>
+        </div>
+        <div class="actions">
+          <button type="submit">Process Invoice</button>
+        </div>
+      </form>
+      <div class="note">
+        Output files will be saved in outputs folders and also listed below.
+      </div>
+
+      {% if results %}
+      <div class="results">
+        <h3>Outputs</h3>
+        {% for item in results %}
+          <a href="{{ item.url }}" target="_blank">{{ item.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if error %}
+      <div class="error">{{ error }}</div>
+      {% endif %}
+    </div>
+
+    <div class="card" style="margin-top: 20px;">
+      <h2>Restore Tokenized Image</h2>
+      <form action="/restore_upload" method="post" enctype="multipart/form-data">
+        <div class="row">
+          <label for="restore_file">Upload Tokenized Image (PDF or Image)</label>
+          <input type="file" name="file" id="restore_file" required />
+        </div>
+        <div class="actions">
+          <button type="submit">Restore Now</button>
+        </div>
+      </form>
+      <div class="note">
+        Restored files will be saved in outputs_restored and linked below.
+      </div>
+
+      {% if restore_results %}
+      <div class="results">
+        <h3>Restored Outputs</h3>
+        {% for item in restore_results %}
+          <a href="{{ item.url }}" target="_blank">{{ item.label }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if restore_error %}
+      <div class="error">{{ restore_error }}</div>
+      {% endif %}
+    </div>
+  </body>
+</html>

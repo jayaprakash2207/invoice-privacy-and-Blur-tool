@@ -1,0 +1,372 @@
+[
+  {
+    "text": "EarnAxis",
+    "bbox": [
+      131,
+      152,
+      301,
+      192
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "San Francisco, CA 94102 | inquire@earnaxismail",
+    "bbox": [
+      131,
+      199,
+      567,
+      226
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "templatenet",
+    "bbox": [
+      574,
+      202,
+      697,
+      226
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "222 555 777",
+    "bbox": [
+      706,
+      202,
+      814,
+      222
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Sample Modern Sales Invoice",
+    "bbox": [
+      294,
+      404,
+      912,
+      457
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "[YOUR COMPANY NAME]",
+    "bbox": [
+      136,
+      512,
+      418,
+      539
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "[YOUR COMPANY ADDRESS]",
+    "bbox": [
+      429,
+      509,
+      749,
+      542
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "[YOUR COMPANY NUMBER]",
+    "bbox": [
+      760,
+      512,
+      1070,
+      540
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Invoice Number:",
+    "bbox": [
+      139,
+      608,
+      323,
+      632
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "#123456",
+    "bbox": [
+      602,
+      608,
+      700,
+      632
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Invoice Date:",
+    "bbox": [
+      139,
+      657,
+      286,
+      682
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "October 1, 2086",
+    "bbox": [
+      603,
+      656,
+      776,
+      684
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Due Date:",
+    "bbox": [
+      140,
+      707,
+      252,
+      735
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "October 15, 2086",
+    "bbox": [
+      602,
+      706,
+      788,
+      734
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Bill To:",
+    "bbox": [
+      133,
+      788,
+      236,
+      820
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Name: Lawrence Orn",
+    "bbox": [
+      152,
+      846,
+      382,
+      870
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Address: Phoenix, AZ 85001",
+    "bbox": [
+      152,
+      882,
+      457,
+      912
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Email: lawrence@you.mail",
+    "bbox": [
+      151,
+      924,
+      433,
+      952
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Phone: 222 555 7777",
+    "bbox": [
+      151,
+      963,
+      383,
+      987
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Total Amounts",
+    "bbox": [
+      134,
+      1039,
+      352,
+      1068
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Description",
+    "bbox": [
+      213,
+      1134,
+      338,
+      1162
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Quantity",
+    "bbox": [
+      470,
+      1131,
+      567,
+      1163
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Unit Price",
+    "bbox": [
+      692,
+      1134,
+      799,
+      1158
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Total",
+    "bbox": [
+      940,
+      1134,
+      995,
+      1158
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Product A",
+    "bbox": [
+      140,
+      1183,
+      246,
+      1208
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "2",
+    "bbox": [
+      418,
+      1186,
+      432,
+      1204
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "S50.00",
+    "bbox": [
+      627,
+      1180,
+      708,
+      1208
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "S100.00",
+    "bbox": [
+      868,
+      1182,
+      958,
+      1208
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Product B",
+    "bbox": [
+      140,
+      1234,
+      246,
+      1260
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "S30.00",
+    "bbox": [
+      628,
+      1232,
+      709,
+      1259
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "S30.00",
+    "bbox": [
+      868,
+      1232,
+      949,
+      1259
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Subtotal",
+    "bbox": [
+      140,
+      1333,
+      237,
+      1358
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "s190.00",
+    "bbox": [
+      868,
+      1332,
+      958,
+      1358
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Tax (10%)",
+    "bbox": [
+      140,
+      1383,
+      252,
+      1410
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "S19.00",
+    "bbox": [
+      866,
+      1380,
+      944,
+      1408
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Total Amount Due",
+    "bbox": [
+      140,
+      1432,
+      338,
+      1458
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "S209.00",
+    "bbox": [
+      866,
+      1431,
+      962,
+      1459
+    ],
+    "sensitive": false
+  }
+]

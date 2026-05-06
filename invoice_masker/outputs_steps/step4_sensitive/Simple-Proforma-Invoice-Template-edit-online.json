@@ -1,0 +1,392 @@
+[
+  {
+    "text": "YOUR",
+    "bbox": [
+      421,
+      110,
+      460,
+      126
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "LOGO",
+    "bbox": [
+      421,
+      124,
+      462,
+      140
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Vivantix Co.",
+    "bbox": [
+      495,
+      100,
+      788,
+      152
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "name@vivantix.com",
+    "bbox": [
+      362,
+      202,
+      562,
+      228
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "222 555 7777",
+    "bbox": [
+      576,
+      206,
+      706,
+      227
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "vivantixcom",
+    "bbox": [
+      718,
+      204,
+      844,
+      224
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Simple Proforma Invoice",
+    "bbox": [
+      346,
+      402,
+      861,
+      460
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Invoice Number:",
+    "bbox": [
+      138,
+      567,
+      322,
+      591
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "INV-001",
+    "bbox": [
+      571,
+      567,
+      661,
+      591
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Invoice Date:",
+    "bbox": [
+      138,
+      616,
+      285,
+      641
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "October 25, 2085",
+    "bbox": [
+      571,
+      615,
+      760,
+      644
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Due Date:",
+    "bbox": [
+      137,
+      666,
+      250,
+      694
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "November 25, 2085",
+    "bbox": [
+      572,
+      665,
+      784,
+      695
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Bill To:",
+    "bbox": [
+      134,
+      746,
+      236,
+      775
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Company Name: WinGroup",
+    "bbox": [
+      150,
+      799,
+      448,
+      833
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Contact Name: Jewell Ward",
+    "bbox": [
+      150,
+      840,
+      452,
+      869
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Address: Minneapolis, MN 55401",
+    "bbox": [
+      152,
+      880,
+      512,
+      909
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Email: jewell@you.mail",
+    "bbox": [
+      151,
+      920,
+      404,
+      949
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Phone: 222 555 7777",
+    "bbox": [
+      151,
+      959,
+      382,
+      983
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Details:",
+    "bbox": [
+      133,
+      1032,
+      252,
+      1066
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Description",
+    "bbox": [
+      213,
+      1130,
+      336,
+      1158
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Quantity",
+    "bbox": [
+      470,
+      1126,
+      566,
+      1160
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Unit Price",
+    "bbox": [
+      690,
+      1130,
+      798,
+      1154
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Total",
+    "bbox": [
+      938,
+      1130,
+      995,
+      1154
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Product A",
+    "bbox": [
+      140,
+      1180,
+      246,
+      1204
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "10",
+    "bbox": [
+      416,
+      1180,
+      444,
+      1204
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "s5o.00",
+    "bbox": [
+      627,
+      1178,
+      706,
+      1206
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "s5o0.00",
+    "bbox": [
+      866,
+      1178,
+      960,
+      1206
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Product B",
+    "bbox": [
+      140,
+      1230,
+      246,
+      1255
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "5",
+    "bbox": [
+      418,
+      1232,
+      430,
+      1251
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "S80.00",
+    "bbox": [
+      627,
+      1228,
+      708,
+      1255
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "S400.00",
+    "bbox": [
+      866,
+      1228,
+      962,
+      1255
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Total Amounts:",
+    "bbox": [
+      133,
+      1310,
+      364,
+      1342
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Subtotal:",
+    "bbox": [
+      138,
+      1406,
+      241,
+      1431
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "S900.00",
+    "bbox": [
+      660,
+      1406,
+      754,
+      1432
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Tax (10%):",
+    "bbox": [
+      138,
+      1456,
+      258,
+      1483
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "S90.00",
+    "bbox": [
+      660,
+      1455,
+      741,
+      1482
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Total:",
+    "bbox": [
+      138,
+      1506,
+      204,
+      1530
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "s990.00",
+    "bbox": [
+      658,
+      1504,
+      754,
+      1532
+    ],
+    "sensitive": true
+  }
+]
