@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pkl.gz
+*.egg-info/
+.venv/
+venv/
+
+# Logs
+*.log
+logs/
+
+# Outputs and artifacts
+outputs/
+outputs_ocr/
+outputs_redacted/
+outputs_restored/
+outputs_steps/
+outputs_tokenized/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
