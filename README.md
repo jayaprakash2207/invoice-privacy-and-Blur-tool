@@ -25,6 +25,10 @@ Download the spaCy model if using the default NER backend:
 python -m spacy download en_core_web_sm
 ```
 
+## Environment
+Optional environment variables (see .env.example):
+- INVOICE_MASKER_CONFIG: path to a custom config YAML
+
 ## CLI usage
 Run from the `invoice_masker` directory:
 ```bash
@@ -62,3 +66,10 @@ Generated files are written under:
 - `outputs_restored/`
 
 These are ignored by git via the root `.gitignore`.
+
+## Deployment notes
+- Set `INVOICE_MASKER_CONFIG` to point at your production config if needed.
+- For production, run uvicorn with explicit host/port and workers, for example:
+```bash
+uvicorn api:app --host 0.0.0.0 --port 8000 --workers 2
+```

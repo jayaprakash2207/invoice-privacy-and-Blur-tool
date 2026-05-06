@@ -25,3 +25,4 @@ outputs_tokenized/
 .DS_Store
 Thumbs.db
 .vscode/
+.env
