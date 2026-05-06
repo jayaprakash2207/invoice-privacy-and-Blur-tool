@@ -13,14 +13,6 @@ venv/
 *.log
 logs/
 
-# Outputs and artifacts
-outputs/
-outputs_ocr/
-outputs_redacted/
-outputs_restored/
-outputs_steps/
-outputs_tokenized/
-
 # OS / editor
 .DS_Store
 Thumbs.db

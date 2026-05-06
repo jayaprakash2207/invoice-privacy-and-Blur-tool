@@ -1,0 +1,563 @@
+[
+  {
+    "text": "EarnAxis",
+    "confidence": 0.9996058104888847,
+    "bbox": [
+      131,
+      152,
+      301,
+      192
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "San Francisco, CA 94102 | inquire@earnaxismail",
+    "confidence": 0.8378093015477968,
+    "bbox": [
+      131,
+      199,
+      567,
+      226
+    ],
+    "ner_labels": [
+      "GPE"
+    ],
+    "regex_hits": [
+      "ZIP"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "templatenet",
+    "confidence": 0.999980734454926,
+    "bbox": [
+      574,
+      202,
+      697,
+      226
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "222 555 777",
+    "confidence": 0.9897769565847663,
+    "bbox": [
+      706,
+      202,
+      814,
+      222
+    ],
+    "ner_labels": [],
+    "regex_hits": [
+      "PHONE"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "Sample Modern Sales Invoice",
+    "confidence": 0.946252167652479,
+    "bbox": [
+      294,
+      404,
+      912,
+      457
+    ],
+    "ner_labels": [
+      "ORG"
+    ],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "[YOUR COMPANY NAME]",
+    "confidence": 0.7921248781209536,
+    "bbox": [
+      136,
+      512,
+      418,
+      539
+    ],
+    "ner_labels": [],
+    "regex_hits": [
+      "KEYWORD"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "[YOUR COMPANY ADDRESS]",
+    "confidence": 0.9377949471103446,
+    "bbox": [
+      429,
+      509,
+      749,
+      542
+    ],
+    "ner_labels": [],
+    "regex_hits": [
+      "KEYWORD"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "[YOUR COMPANY NUMBER]",
+    "confidence": 0.804752457685698,
+    "bbox": [
+      760,
+      512,
+      1070,
+      540
+    ],
+    "ner_labels": [],
+    "regex_hits": [
+      "KEYWORD"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "Invoice Number:",
+    "confidence": 0.9998438884795146,
+    "bbox": [
+      139,
+      608,
+      323,
+      632
+    ],
+    "ner_labels": [],
+    "regex_hits": [
+      "INVOICE_REF"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "#123456",
+    "confidence": 0.9999152919141379,
+    "bbox": [
+      602,
+      608,
+      700,
+      632
+    ],
+    "ner_labels": [],
+    "regex_hits": [
+      "PHONE"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "Invoice Date:",
+    "confidence": 0.9986237143025088,
+    "bbox": [
+      139,
+      657,
+      286,
+      682
+    ],
+    "ner_labels": [],
+    "regex_hits": [
+      "INVOICE_REF"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "October 1, 2086",
+    "confidence": 0.9720361391736558,
+    "bbox": [
+      603,
+      656,
+      776,
+      684
+    ],
+    "ner_labels": [],
+    "regex_hits": [
+      "DATE"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "Due Date:",
+    "confidence": 0.9999748466817318,
+    "bbox": [
+      140,
+      707,
+      252,
+      735
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "October 15, 2086",
+    "confidence": 0.9909724525264828,
+    "bbox": [
+      602,
+      706,
+      788,
+      734
+    ],
+    "ner_labels": [],
+    "regex_hits": [
+      "DATE"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "Bill To:",
+    "confidence": 0.6965014262188404,
+    "bbox": [
+      133,
+      788,
+      236,
+      820
+    ],
+    "ner_labels": [
+      "PERSON"
+    ],
+    "regex_hits": [
+      "KEYWORD"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "Name: Lawrence Orn",
+    "confidence": 0.9287740466336404,
+    "bbox": [
+      152,
+      846,
+      382,
+      870
+    ],
+    "ner_labels": [
+      "PERSON"
+    ],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "Address: Phoenix, AZ 85001",
+    "confidence": 0.9536370797110569,
+    "bbox": [
+      152,
+      882,
+      457,
+      912
+    ],
+    "ner_labels": [
+      "GPE"
+    ],
+    "regex_hits": [
+      "KEYWORD",
+      "ZIP"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "Email: lawrence@you.mail",
+    "confidence": 0.5929120241244881,
+    "bbox": [
+      151,
+      924,
+      433,
+      952
+    ],
+    "ner_labels": [],
+    "regex_hits": [
+      "EMAIL",
+      "KEYWORD"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "Phone: 222 555 7777",
+    "confidence": 0.9897036697716569,
+    "bbox": [
+      151,
+      963,
+      383,
+      987
+    ],
+    "ner_labels": [],
+    "regex_hits": [
+      "KEYWORD",
+      "PHONE"
+    ],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "Total Amounts",
+    "confidence": 0.9984659984766409,
+    "bbox": [
+      134,
+      1039,
+      352,
+      1068
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "Description",
+    "confidence": 0.921938576842124,
+    "bbox": [
+      213,
+      1134,
+      338,
+      1162
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "Quantity",
+    "confidence": 0.8033731612485707,
+    "bbox": [
+      470,
+      1131,
+      567,
+      1163
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "Unit Price",
+    "confidence": 0.9995536280125908,
+    "bbox": [
+      692,
+      1134,
+      799,
+      1158
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "Total",
+    "confidence": 0.7517990690476148,
+    "bbox": [
+      940,
+      1134,
+      995,
+      1158
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "Product A",
+    "confidence": 0.9809149057663864,
+    "bbox": [
+      140,
+      1183,
+      246,
+      1208
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "2",
+    "confidence": 1.0,
+    "bbox": [
+      418,
+      1186,
+      432,
+      1204
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "S50.00",
+    "confidence": 0.9049693767339362,
+    "bbox": [
+      627,
+      1180,
+      708,
+      1208
+    ],
+    "ner_labels": [
+      "ORG"
+    ],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": true
+  },
+  {
+    "text": "S100.00",
+    "confidence": 0.6979369528011344,
+    "bbox": [
+      868,
+      1182,
+      958,
+      1208
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "Product B",
+    "confidence": 0.8089811057430119,
+    "bbox": [
+      140,
+      1234,
+      246,
+      1260
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "S30.00",
+    "confidence": 0.7074252580106248,
+    "bbox": [
+      628,
+      1232,
+      709,
+      1259
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "S30.00",
+    "confidence": 0.43200019914300497,
+    "bbox": [
+      868,
+      1232,
+      949,
+      1259
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "Subtotal",
+    "confidence": 0.9999874823535403,
+    "bbox": [
+      140,
+      1333,
+      237,
+      1358
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "s190.00",
+    "confidence": 0.5602607752645588,
+    "bbox": [
+      868,
+      1332,
+      958,
+      1358
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "Tax (10%)",
+    "confidence": 0.9503208903341539,
+    "bbox": [
+      140,
+      1383,
+      252,
+      1410
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "S19.00",
+    "confidence": 0.6541881267914722,
+    "bbox": [
+      866,
+      1380,
+      944,
+      1408
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "Total Amount Due",
+    "confidence": 0.9982380385688255,
+    "bbox": [
+      140,
+      1432,
+      338,
+      1458
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  },
+  {
+    "text": "S209.00",
+    "confidence": 0.7624029032431058,
+    "bbox": [
+      866,
+      1431,
+      962,
+      1459
+    ],
+    "ner_labels": [],
+    "regex_hits": [],
+    "classifier_scores": {},
+    "sensitive": false
+  }
+]

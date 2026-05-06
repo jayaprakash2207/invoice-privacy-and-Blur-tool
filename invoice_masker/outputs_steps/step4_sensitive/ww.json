@@ -1,0 +1,512 @@
+[
+  {
+    "text": "Sender (Seller / Exported)",
+    "bbox": [
+      41,
+      40,
+      148,
+      54
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Proforma Invoice",
+    "bbox": [
+      352,
+      38,
+      574,
+      69
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Ccmpany Name",
+    "bbox": [
+      43,
+      61,
+      115,
+      75
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Address",
+    "bbox": [
+      44,
+      74,
+      81,
+      85
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "COUNTRY",
+    "bbox": [
+      44,
+      111,
+      93,
+      122
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Conlac  Peison",
+    "bbox": [
+      44,
+      136,
+      111,
+      147
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Phone No",
+    "bbox": [
+      44,
+      148,
+      89,
+      160
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Reccivcr (Buycr /Importer)",
+    "bbox": [
+      42,
+      188,
+      155,
+      202
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Invoicc No",
+    "bbox": [
+      407,
+      194,
+      455,
+      205
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Furofins Analytik Gmol",
+    "bbox": [
+      42,
+      202,
+      142,
+      215
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Neulander",
+    "bbox": [
+      42,
+      215,
+      88,
+      229
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "1",
+    "bbox": [
+      113,
+      218,
+      118,
+      226
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Shipping Date",
+    "bbox": [
+      390,
+      209,
+      455,
+      225
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "21079 Hamburg",
+    "bbox": [
+      41,
+      228,
+      110,
+      243
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Consignment Note No",
+    "bbox": [
+      359,
+      227,
+      455,
+      241
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "GERMANY",
+    "bbox": [
+      41,
+      242,
+      88,
+      254
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Purchase Order No",
+    "bbox": [
+      373,
+      245,
+      455,
+      256
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Invoice Currency",
+    "bbox": [
+      382,
+      262,
+      455,
+      276
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "EORI De6391079",
+    "bbox": [
+      42,
+      269,
+      113,
+      281
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Rcason for Export",
+    "bbox": [
+      376,
+      280,
+      456,
+      294
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Conlact Person Eurofins",
+    "bbox": [
+      44,
+      287,
+      148,
+      297
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Phone No",
+    "bbox": [
+      45,
+      299,
+      89,
+      309
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Air Waybill No (if availablc)",
+    "bbox": [
+      334,
+      297,
+      454,
+      310
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Description",
+    "bbox": [
+      46,
+      330,
+      98,
+      344
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Quantily",
+    "bbox": [
+      174,
+      329,
+      216,
+      344
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Total Weight (kg)",
+    "bbox": [
+      222,
+      329,
+      299,
+      344
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "HS Tariff Code",
+    "bbox": [
+      305,
+      330,
+      369,
+      343
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Countr of Origin",
+    "bbox": [
+      374,
+      330,
+      452,
+      344
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Unit Value",
+    "bbox": [
+      459,
+      330,
+      507,
+      343
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Total Value",
+    "bbox": [
+      516,
+      330,
+      567,
+      343
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Total Gross Wcight (kg)",
+    "bbox": [
+      114,
+      390,
+      217,
+      403
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Total Article Valuc",
+    "bbox": [
+      431,
+      391,
+      512,
+      402
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "0.00",
+    "bbox": [
+      546,
+      390,
+      568,
+      403
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Declarations(s)",
+    "bbox": [
+      46,
+      406,
+      112,
+      418
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Discount",
+    "bbox": [
+      473,
+      406,
+      512,
+      417
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "0,00",
+    "bbox": [
+      547,
+      406,
+      568,
+      417
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "declare that to the best of my knorledge the information on this invoice is",
+    "bbox": [
+      51,
+      419,
+      360,
+      433
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Freight Cnarges",
+    "bbox": [
+      444,
+      421,
+      512,
+      435
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "0.00",
+    "bbox": [
+      546,
+      422,
+      568,
+      432
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "truc and corrcct: Only for analytical purposc: No commcrcial value",
+    "bbox": [
+      46,
+      432,
+      320,
+      447
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Insurancc",
+    "bbox": [
+      469,
+      438,
+      512,
+      448
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "0.00",
+    "bbox": [
+      546,
+      437,
+      568,
+      448
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Othcr Cnargcs",
+    "bbox": [
+      450,
+      452,
+      512,
+      466
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "0,00",
+    "bbox": [
+      547,
+      453,
+      568,
+      463
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Invoicc Total",
+    "bbox": [
+      454,
+      468,
+      512,
+      479
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "0,00",
+    "bbox": [
+      546,
+      468,
+      568,
+      479
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Datc",
+    "bbox": [
+      46,
+      499,
+      69,
+      510
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Namc",
+    "bbox": [
+      256,
+      499,
+      284,
+      510
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Shippcr Signaturc",
+    "bbox": [
+      396,
+      498,
+      476,
+      513
+    ],
+    "sensitive": true
+  },
+  {
+    "text": "Kamp",
+    "bbox": [
+      85,
+      214,
+      114,
+      230
+    ],
+    "sensitive": false
+  },
+  {
+    "text": "Shippcr",
+    "bbox": [
+      220,
+      497,
+      258,
+      515
+    ],
+    "sensitive": false
+  }
+]
